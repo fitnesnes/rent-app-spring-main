@@ -9,7 +9,7 @@
         <version>3.3.3</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.boughrous</groupId>
+    <groupId>com.example</groupId>
     <artifactId>hotel-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>hotel-service</name>
