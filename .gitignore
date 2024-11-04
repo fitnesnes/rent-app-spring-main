@@ -1,0 +1,80 @@
+# Java-related files
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+/build/
+/target/
+
+# Maven/Gradle dependency directories
+/.mvn/
+/.mvn/wrapper/maven-wrapper.properties
+/.gradle/
+/.gradle/
+/build/
+
+# Eclipse/IntelliJ/NetBeans related files
+/.project
+/.classpath
+/.settings/
+/.idea/
+/*.iml
+
+# Logs
+*.log
+/logs/
+/*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+*.suo
+*.user
+*.userossc
+*.sln
+*.swp
+
+# Eureka specific configuration
+eureka.properties
+eureka-client-*.properties
+
+# Gateway specific files (if applicable)
+gateway-config-*.properties
+
+# Spring Boot specific files
+/spring-boot-devtools.properties
+
+# Node-related files (if gateway is Node-based)
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Environment files
+.env
+.env.*
+
+# Docker-related files
+docker-compose.override.yml
+*.env
+Dockerfile
+*.tar
+
+# Generated files
+*.bak
+*.tmp
+*.swp
+*.swx
+*.swo
+*.~*
+
+# Coverage reports
+/coverage/
+*.lcov
+
+# Other generated resources
+dist/

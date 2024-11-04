@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          skip-ssl-validation: true
+          uri: https://github.com/fitnesnes/rent-app-spring-main
+          search-paths:
+          - configs
+
+server:
+    port: 7777 
